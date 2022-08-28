@@ -18,3 +18,4 @@
 ## Areas of improvement to get to a production ready application 
 - Adequate loading indicators/error messages 
 - Better image caching solution 
+- UI improvements for larger screens and landscape mode
