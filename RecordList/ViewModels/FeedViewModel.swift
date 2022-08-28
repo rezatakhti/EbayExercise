@@ -18,7 +18,7 @@ class SongFeedViewModel{
         }
     }
     
-    @Published var title : String?
+    @Published private(set) var title : String?
     
     let feedItemSubject = PassthroughSubject<[SongItem], Never>()
     
@@ -71,7 +71,6 @@ class SongFeedViewModel{
 extension SongFeedViewModel : FeedImageViewDelegate {
     func imageDidLoad(for url: String, image: UIImage?) {
         feedItems.filter { $0.imageURL == url}.forEach { $0.image = image }
-        
     }
 }
 

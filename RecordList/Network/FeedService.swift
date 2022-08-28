@@ -10,6 +10,7 @@ import Foundation
 enum FeedError : Error {
     case unableToComplete
     case unableToDecode
+    case invalidResponse
 }
 
 protocol FeedService {
@@ -53,7 +54,7 @@ class SongFeedService : FeedService {
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
                 guard error == nil else {
-                    completion(.failure(.unableToComplete))
+                    completion(.failure(.invalidResponse))
                     return
                 }
                 
@@ -66,7 +67,7 @@ class SongFeedService : FeedService {
                         
                     }
                 } else {
-                    completion(.failure(.unableToComplete))
+                    completion(.failure(.unableToDecode))
                 }
         }
         

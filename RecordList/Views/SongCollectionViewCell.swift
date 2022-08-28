@@ -20,7 +20,7 @@ class FeedCollectionViewCell : UICollectionViewCell {
     let titleLabel : UILabel = {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .body)
-        label.numberOfLines = 2
+        label.numberOfLines = 1
         label.adjustsFontForContentSizeCategory = true
         return label
     }()
@@ -29,7 +29,7 @@ class FeedCollectionViewCell : UICollectionViewCell {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .caption1)
         label.adjustsFontForContentSizeCategory = true 
-        label.numberOfLines = 2
+        label.numberOfLines = 1
         return label
     }()
     

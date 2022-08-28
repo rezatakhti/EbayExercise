@@ -40,7 +40,7 @@ struct SongFeed : Feed {
     let title : String
 }
 
-class SongItem: CodableFeedItem, Codable, ObservableObject {
+class SongItem: CodableFeedItem, ObservableObject {
     let title: String
     let subTitle: String
     let date: String
