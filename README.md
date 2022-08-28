@@ -1,6 +1,5 @@
 # EbayExercise
-<img width="200" alt="Screen Shot 2022-08-28 at 12 08 52 PM" src="https://user-images.githubusercontent.com/36284798/187090578-3b96e0e1-f476-45dc-a6a9-f50d8c87c498.png">
-<img width="200" alt="Screen Shot 2022-08-28 at 12 09 01 PM" src="https://user-images.githubusercontent.com/36284798/187090583-0af7794e-a50f-4257-9436-f00d3a45ca89.png">
+<img width="250" alt="Screen Shot 2022-08-28 at 12 08 52 PM" src="https://user-images.githubusercontent.com/36284798/187090578-3b96e0e1-f476-45dc-a6a9-f50d8c87c498.png"><img width="250" alt="Screen Shot 2022-08-28 at 12 09 01 PM" src="https://user-images.githubusercontent.com/36284798/187090583-0af7794e-a50f-4257-9436-f00d3a45ca89.png">
 
 
 ## Code/design decisions Made
